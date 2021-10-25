@@ -5,16 +5,14 @@
     "outDir": "dist",
     "paths": {
       "@src/*": ["src/*"],
-      "@styles/*": ["styles/*"]
+      "@styles/*": ["styles/*"],
+      "@services/*": ["src/services/*"],
+      "@utils/*": ["src/utils/*"]
     },
 
     /* Project */
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
 
     /* Imports */
@@ -25,19 +23,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
 
-
     /* Additional */
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
     "jsx": "preserve"
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-, "jest.config.js"  ],
-  "exclude": [
-    "node_modules", "dist", "coverage", ".next"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
+  "exclude": ["node_modules", "dist", "coverage", ".next"]
 }
