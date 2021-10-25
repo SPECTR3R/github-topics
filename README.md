@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GitHub Topic Explorer
 
-## Getting Started
+## Assignment:
+Your task is to build a React web application that displays all the
+"[topics](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#topic)"related to the term "react", using the GitHub GraphQL API.
+The application should display how many
+"[stargazers](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#stargazerconnection)" each topic has. A click on a topic should display the topics related to that topic,
+and how many stargazers they have. And so forth.
+To interact with the Github GraphQL API you'll need to have
+* a [Github API
+key](https://docs.github.com/en/free-pro-team@latest/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql)
+* You'll want to make use of the key in the .env file within your application
+* You may use whatever React framework or library you find useful.
+* URL routing is optional.
 
-First, run the development server:
+## Evaluation:
+* We will pay particular attention to the way the code is organized, and to the overall readability
+* Unit tests will be greatly appreciated
+* Design will be ignored, however usability and accessibility will be taken into consideration
+* Remember to update this README with instructions on how to install, run and test your
+application
+* Your first goal is to have a working app, but feel free to improve the application however you
+see fit
+* We hope that you can complete the assignment within 2 hours but don't set any time
+constraints
+* Please reach out per email or by opening an issue if anything is unclear or blocking you
+Best of luck
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Dev Notes
+* Leave any technical notes on any libraries or tools you chose to use, the more detail the
+better.
+How to run app & test
+* Leave instruction on how to run and test your app here
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Future Improvements
+Feel free to elaborate on how you would improve any of the following topics
+* Code Structuring:
+* Refactoring:
+* Additional Features:

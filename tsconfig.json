@@ -7,7 +7,9 @@
       "@src/*": ["src/*"],
       "@styles/*": ["styles/*"],
       "@services/*": ["src/services/*"],
-      "@utils/*": ["src/utils/*"]
+      "@graphql/*": ["src/graphql/*"],
+      "@utils/*": ["src/utils/*"],
+      "@components/*": ["src/components/*"]
     },
 
     /* Project */
