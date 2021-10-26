@@ -14,7 +14,7 @@ export const Heading = () => (
     >
       GitHub Topics
     </Text>
-    <Text my={4} maxW="2xl" fontSize="xl" mx={{ lg: 'auto' }} color="gray.500">
+    <Text my={4} maxW="2xl" fontSize="xl" mx="auto" color="gray.500">
       Find any topic you want on GitHub.
     </Text>
   </>
