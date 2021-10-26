@@ -3,7 +3,6 @@ import { Text } from '@chakra-ui/react';
 
 export const Heading = () => (
   <>
-    {' '}
     <Text
       m={2}
       as="h1"
