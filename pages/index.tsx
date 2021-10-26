@@ -1,13 +1,12 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { Center } from '@chakra-ui/react';
+import { Loading } from '@components/Loading';
 
 const Index = () => {
   const router = useRouter();
   useEffect(() => {
     router.push('/react');
   });
-
-  return <Center>Loading...</Center>;
+  return <Loading />;
 };
 export default Index;

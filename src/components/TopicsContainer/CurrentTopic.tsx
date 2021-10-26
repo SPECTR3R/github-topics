@@ -1,0 +1,17 @@
+import { chakra } from '@chakra-ui/react';
+
+function capitalize(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+export function CurrentTopic({ topicName = '', stargazerCount = 0 }: { topicName: string; stargazerCount: number }) {
+  return (
+    <>
+      {topicName && (
+        <chakra.p my={4} maxW="2xl" fontSize="xl" mx={{ lg: 'auto' }} color="gray.500">
+          Current Topic is: {capitalize(topicName)} with {stargazerCount} stars
+        </chakra.p>
+      )}
+    </>
+  );
+}
