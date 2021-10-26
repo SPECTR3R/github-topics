@@ -8,6 +8,7 @@ export const GET_TOPICS_QUERY = gql`
       stargazerCount
       relatedTopics(first: 10) {
         name
+        id
         stargazers {
           totalCount
         }

@@ -1,4 +1,4 @@
-import { chakra } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import { StarIcon } from '@components/StarIcon';
 
 function capitalize(str: string) {
@@ -9,9 +9,9 @@ export function CurrentTopic({ topicName = '', stargazerCount = 0 }: { topicName
   return (
     <>
       {topicName && (
-        <chakra.p my={4} maxW="2xl" fontSize="xl" mx={{ lg: 'auto' }} color="gray.500">
+        <Box my={4} maxW="2xl" fontSize="xl" mx={{ lg: 'auto' }} color="gray.500">
           Current Topic is: {capitalize(topicName)} with {stargazerCount} <StarIcon />
-        </chakra.p>
+        </Box>
       )}
     </>
   );

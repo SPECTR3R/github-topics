@@ -11,8 +11,8 @@ const Home: FC = () => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>GitHub Topics Explorer</title>
+        <link rel="shortcut icon" href="/GitHub.ico" />
       </Head>
       <TopicsContainer topicName={query.topicName as string} />
     </>
