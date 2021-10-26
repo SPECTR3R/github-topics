@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { Box, SimpleGrid, Flex, useColorModeValue } from '@chakra-ui/react';
+import { Box, Flex } from '@chakra-ui/react';
 import { Heading } from '@components/Heading';
 import { SearchbarContainer } from '@components/SearchbarContainer';
 
