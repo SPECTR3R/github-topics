@@ -31,9 +31,6 @@ To interact with the Github GraphQL API you'll need to have
 
 ## Dev Notes
 
-- Leave any technical notes on any libraries or tools you chose to use, the more detail the
-  better.
-
 This project uses the following technologies:
 
 - Package manager: Yarn
@@ -44,40 +41,30 @@ This project uses the following technologies:
 - Code quality assunrace: Eslint, Prettier, Husky.
 
 I also managed to make the app responsive, and added some features, for example, a message
-appears when no topics are found. I also deployed the site, you can visit it [here](https://github-topics.vercel.app/react):
+appears when no topics are found. I also deployed the site, you can visit it [here](https://github-topics.vercel.app/react)
 
-How to run app & test
+### How to run app & test
 
-- Leave instruction on how to run and test your app here
-
-### To run this project, please:
-
-- In the terminal, run:
-
+- In the terminal, run the app using:
   ```
   yarn install
   yarn start
   ```
 
-### Avalable scripts
-
 - Run test
-
-```
-yarn test
-```
+  ```
+  yarn test
+  ```
 
 - Test driven development mode:
-
-```
-yarn test:watch
-```
+  ```
+  yarn test:watch
+  ```
 
 - Code coverage: log the code coverage to the console
-
-```
-yarn test:coverage
-```
+  ```
+  yarn test:coverage
+  ```
 
 ## Future Improvements
 
