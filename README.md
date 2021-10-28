@@ -10,7 +10,7 @@ and how many stargazers they have. And so forth.
 To interact with the Github GraphQL API you'll need to have
 
 - a [Github API
-  key](https://docs.github.com/en/free-pro-team@latest/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql)
+  key](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 - You'll want to make use of the key in the .env file within your application
 - You may use whatever React framework or library you find useful.
 - URL routing is optional.
