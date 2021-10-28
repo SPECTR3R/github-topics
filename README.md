@@ -45,7 +45,7 @@ appears when no topics are found. I also deployed the site, you can visit it [he
 
 ### How to run app & test
 
-first create a .env file with the following variables, you will need to get a github personal access token from [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) : 
+first create a .env file in the root directory with the following variables, you will need to get a github personal access token from [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) : 
 
 ```
 NEXT_PUBLIC_GITHUB_API_TOKEN = 
