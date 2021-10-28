@@ -48,7 +48,7 @@ appears when no topics are found. I also deployed the site, you can visit it [he
 - In the terminal, run the app using:
   ```
   yarn install
-  yarn start
+  yarn dev
   ```
 
 - Run test
